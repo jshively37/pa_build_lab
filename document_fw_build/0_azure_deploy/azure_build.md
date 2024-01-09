@@ -52,8 +52,4 @@
 ### Review and Create
 1.  Verify everything looks correct and click create.
 2.  This will take about 5-10 minutes
-
-Add:
-* DNS for untrust (dynamic peering)
-* Correct Trust routing
-* VPN Subnet
+3.  It will take another 10-15 minutes after deployment is complete for the Firewall mgmt to be accessible.
