@@ -13,7 +13,7 @@
 ### Information Needed to complete:
 * Subnet for VPN Zone
 * Know the subnet for trust
-* DNS name to use for untrust interface
+* DNS name to use for untrust interface (dynamic peering)
 * Trust subnet range
 
 ### Find the Resource Group
