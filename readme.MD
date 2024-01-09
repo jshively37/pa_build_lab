@@ -7,6 +7,6 @@ End state will be deploy a PA in Azure, configure interfaces, deploy an app_serv
 Phase one is focused on creating a living document that walk throughs the manual process.
 
 
-### Manual Documentation:
+### Documentation for Manually Deploying and Configuring:
 * Deploy PA in Azure: [Deploy PA in Azure](document_fw_build/0_azure_deploy/azure_build.md)
 * Configure Azure: [Configure Azure](document_fw_build/1_azure_configure/azure_configure.md)
