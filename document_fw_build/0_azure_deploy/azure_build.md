@@ -15,7 +15,7 @@
 1. Log into Azure and from the top search bar search for marketplace.\
 ![marketplace](images/marketplace.png)
 2. Search the Marketplace for Palo Alto
-3. Select create on M-Series Next-Generation Firewall from Palo Alto
+3. Select create on VM-Series Next-Generation Firewall from Palo Alto
 4. Select VM-Series Virtual Next Generation Firewall (BYOL)\
 ![vm_search](images/vm_search.png)
 
@@ -29,17 +29,11 @@
 
 ### Configure Networking
 1. Under Virtual Network click on Edit virtual network.
-2. Enter in a logical name for the virtual network.\
-![updated_network_name](images/update_network_name.png)
-3. Adjust your address space so there aren't overlaps with existing IP space.
-4. We will add the VPN subnet later. If you try and add it here the Azure PA template will not configure it.
-5. Change the name to VPN (this will enable us to create a VPN zone on the firewall). NOTE: We have to enable UDR but that is done later.
-6. Select add.\
-![add_subnet](images/add_subnet.png)
-1. All zones:\
-![all_zones](images/all_zones.png)
-1.  Click save.
-2.  You may not see the VPN Subnet listed and that is ok.\
+2. Enter in a logical name for the virtual network.
+3. Adjust your address space so there aren't overlaps with existing IP space. I also adjust it down to a /21 or /22 vs. the default /16.\
+![updated_network](images/updated_network.png)
+4.  Click save.
+5. Verify you have a Virtual network and three subnets (Management, Untrust, and Trust). We will add a VPN zone in later. If we add it now the Azure PA template won't recongize it.
 ![network_complete](images/network_complete.png)
 1.  Click Next.
 
