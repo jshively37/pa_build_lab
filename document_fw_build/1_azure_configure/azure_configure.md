@@ -1,5 +1,15 @@
 # Configure Azure Environment
 
+### Table of Contents
+- [Configure Azure Environment](#configure-azure-environment)
+    - [Table of Contents](#table-of-contents)
+    - [Information Needed to complete:](#information-needed-to-complete)
+    - [Find the Resource Group](#find-the-resource-group)
+    - [Add a Subnet for VPN (From the Resource Group)](#add-a-subnet-for-vpn-from-the-resource-group)
+    - [Create Public DNS for Trust Zone](#create-public-dns-for-trust-zone)
+    - [Configure User Define Route for trust](#configure-user-define-route-for-trust)
+
+
 ### Information Needed to complete:
 * Subnet for VPN Zone
 * Know the subnet for trust

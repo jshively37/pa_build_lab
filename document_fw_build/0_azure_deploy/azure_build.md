@@ -1,5 +1,16 @@
 # Build Azure Environment
 
+### Table of Contents
+- [Build Azure Environment](#build-azure-environment)
+    - [Table of Contents](#table-of-contents)
+    - [Information Needed to complete:](#information-needed-to-complete)
+    - [Select Firewall From Marketplace](#select-firewall-from-marketplace)
+    - [Configure VM Basics](#configure-vm-basics)
+    - [Configure Networking](#configure-networking)
+    - [Configure VM-Series Configuration](#configure-vm-series-configuration)
+    - [Review and Create](#review-and-create)
+
+
 ### Information Needed to complete:
 * Azure Subscription
 * Resource Group Name
