@@ -60,5 +60,6 @@
 2.  This will take about 5-10 minutes
 
 Add:
-DNS for untrust (dynamic peering)
-Correct Trust routing
+* DNS for untrust (dynamic peering)
+* Correct Trust routing
+* VPN Subnet
