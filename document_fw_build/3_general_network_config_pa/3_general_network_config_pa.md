@@ -1,6 +1,13 @@
 # General Network Config for PA Firewall
 
 ### Table of Contents
+- [General Network Config for PA Firewall](#general-network-config-for-pa-firewall)
+    - [Table of Contents](#table-of-contents)
+    - [Information Needed to complete:](#information-needed-to-complete)
+    - [Create Zones](#create-zones)
+    - [Configure Interfaces](#configure-interfaces)
+    - [Default Route](#default-route)
+
 
 ### Information Needed to complete:
 * PA MGMT (IP or FQDN)
