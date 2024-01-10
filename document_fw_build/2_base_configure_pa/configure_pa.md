@@ -1,5 +1,13 @@
 # Configure a VM PA Firewall
 
+### Table of Contents
+- [Configure a VM PA Firewall](#configure-a-vm-pa-firewall)
+    - [Table of Contents](#table-of-contents)
+    - [Information Needed to complete:](#information-needed-to-complete)
+    - [Register the device](#register-the-device)
+    - [Set the timezone and NTP.](#set-the-timezone-and-ntp)
+    - [Update OS](#update-os)
+
 ### Information Needed to complete:
 * PA MGMT (IP or FQDN)
 * PA username and password
@@ -18,7 +26,6 @@
 6. Click on Retrieve license  keys from license server and wait aboutfive minutes. You might have to log back in after the license is applied.
 7. You should now see under Dashboard a Serial Number has been assigned.
 
-
 ### Set the timezone and NTP.
 1. From the PA device tab click on Setup.
 2. Select services and click on the gear icon on the services box.\
@@ -34,7 +41,6 @@
 ![cli](images/cli.png)
 
 ### Update OS
-
 1. Click on device -> Software. The first time you load this it might say Operation Failed No update information available. Click close and on the bottom left of the screen click on Check Now.
 ![images](images/images.png)
 2. Select download under the version you want to install.
@@ -44,3 +50,4 @@
 4. After the image is validated, refresh the screen, and select install.
 5. This process will take 15-20 minutes and require a reboot.\
 ![install_image](images/install_image.png)
+6. Wait 5-10 minutes for the reboot and when you log back in you should see the version of Dashboard is the version you selected to install.
