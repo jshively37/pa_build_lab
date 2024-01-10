@@ -50,4 +50,4 @@
 4. After the image is validated, refresh the screen, and select install.
 5. This process will take 15-20 minutes and require a reboot.\
 ![install_image](images/install_image.png)
-6. Wait 5-10 minutes for the reboot and when you log back in you should see the version of Dashboard is the version you selected to install.
+6. Wait 5-10 minutes for the reboot and when you log back in you should see the version on the Dashboard tab under General Information is the version you selected to install.

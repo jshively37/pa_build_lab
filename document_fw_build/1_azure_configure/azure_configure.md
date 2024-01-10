@@ -6,6 +6,8 @@
     - [Information Needed to complete:](#information-needed-to-complete)
     - [Find the Resource Group](#find-the-resource-group)
     - [Add a Subnet for VPN (From the Resource Group)](#add-a-subnet-for-vpn-from-the-resource-group)
+    - [Enable Accelerated Networking for VPN Subnet](#enable-accelerated-networking-for-vpn-subnet)
+    - [Attach VPN subnet to PA VM](#attach-vpn-subnet-to-pa-vm)
     - [Create Public DNS for Trust Zone](#create-public-dns-for-trust-zone)
     - [Configure User Define Route for trust](#configure-user-define-route-for-trust)
 
@@ -34,6 +36,22 @@
 ![create_network_interface](images/create_network_interface.png)
 1. Click review + create
 2. Click create.
+
+### Enable Accelerated Networking for VPN Subnet
+1. From the Azure resource group cick on the VPN network interface.
+2. Click on Edit accelerated network.
+3.  Select enabled and check the box to confirm you have validated the operating system supports.
+![enable_accelerated](images/enable_accelerated_networking.png)
+
+### Attach VPN subnet to PA VM
+1. Shut down the PA VM if it is running.
+2. Click on the PA VM in the resource group.
+3. On the left side select network settings.\
+![network_settings](images/azure_network_settings.png)
+1. Click on Attach network interface and select the created VPN interface
+2. You will now see it connected after a couple of minutes.\
+![vpn_connected](images/azure_vpn_connected.png)
+1. Start the PA again.
 
 ### Create Public DNS for Trust Zone
 This will allow dynamic peering of IPSec tunnel via DNS name on untrust.
