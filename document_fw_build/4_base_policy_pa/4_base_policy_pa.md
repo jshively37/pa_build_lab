@@ -1,6 +1,13 @@
 # General Policy Config for PA Firewall
 
 ### Table of Contents
+- [General Policy Config for PA Firewall](#general-policy-config-for-pa-firewall)
+    - [Table of Contents](#table-of-contents)
+    - [Information Needed to complete:](#information-needed-to-complete)
+    - [NAT Policy](#nat-policy)
+    - [Trust to Untrust Internet Policy](#trust-to-untrust-internet-policy)
+    - [Testing from SSH](#testing-from-ssh)
+
 
 ### Information Needed to complete:
 * PA MGMT (IP or FQDN)
