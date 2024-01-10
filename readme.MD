@@ -11,3 +11,4 @@ Phase one is focused on creating a living document that walk throughs the manual
 * Deploy PA in Azure: [Deploy PA in Azure](document_fw_build/0_azure_deploy/azure_build.md)
 * Configure Azure: [Configure Azure](document_fw_build/1_azure_configure/azure_configure.md)
 * General PA config: [General PA config](document_fw_build/2_base_configure_pa/configure_pa.md)
+* General Network Config for PA: [General Network PA Config](document_fw_build/3_general_network_config_pa/3_general_network_config_pa.md)
