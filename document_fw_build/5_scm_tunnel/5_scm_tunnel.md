@@ -80,7 +80,7 @@ The push for this will take 20-30 minutes.
 29. Click Save
 30. Push configuration. NOTE: This might take 20-30 minutes to push.
 
-After the configuration has pushed the remote network will be assigned a Service IP. This is the IP we will use on the Azure PA for peering.\
+After the configuration has pushed the remote network will be assigned a Service IP. This is the IP we will use on the Azure PA for peering.
 
 ![rn_completed_push](images/rn_completed_push.png)
 
