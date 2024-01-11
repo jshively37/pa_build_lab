@@ -22,9 +22,12 @@ The push for this will take 20-30 minutes.
 2. Click on `bandwidth management` at the top.
 3. Under the assign column click on the location and enter in the bandwidth you want allocated.\
 ![scm_add_bm](images/scm_add_bm.png)
-4. Click on Push and Push Config in the top left to commit these changes.
+4. Click on Push and Push Config in the top left to commit these changes. NOTE: The push for this might take 20-30 minutes.
+
 
 ### Create Tunnel
+The push for this will take 20-30 minutes.
+
 1. Log into SCM and from the left side select Workflows -> Prisma Access -> Remote networks.\
 ![scm_rn_location](images/scm_rn_location.png)
 2. Under Remote Networks click on `Add Remote Networks`\
@@ -66,18 +69,19 @@ The push for this will take 20-30 minutes.
 22. Lifetime: 8 hours
 23. Click save\
 ![ipsec_standard](images/ipsec_standard.png)
-24. At Create IPSec Tunnel click save again.
+24. At Create IPSec Tunnel click save again.\
 ![rn_tunnel](images/rn_tunnel.png)
 25. Under routing click `Set Up`
 26. Click on `+` under Static Routing
-27. Add in the Azure network you defined in CIDR format.
+27. Add in the Azure network you defined in CIDR format.\
 ![rn_static_route](images/rn_static_route.png)
-28. Click Save
+28. Click Save\
 ![rn_completed](images/rn_completed.png)
 29. Click Save
-30. Push configuration.
+30. Push configuration. NOTE: This might take 20-30 minutes to push.
 
-After the configuration has pushed the remote network will be assigned a Service IP. This is the IP we will use on the Azure PA for peering.
+After the configuration has pushed the remote network will be assigned a Service IP. This is the IP we will use on the Azure PA for peering.\
 
+![rn_completed_push](images/rn_completed_push.png)
 
 ### Create base policy
