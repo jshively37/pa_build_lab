@@ -14,3 +14,4 @@ Phase one is focused on creating a living document that walk throughs the manual
 * General Network Config for PA: [General Network PA Config](document_fw_build/3_general_network_config_pa/3_general_network_config_pa.md)
 * General Policy Config for PA: [General Policy PA Config](document_fw_build/4_base_policy_pa/4_base_policy_pa.md)
 * Create SCM Tunnel: [Create SCM Tunnel](document_fw_build/5_scm_tunnel/5_scm_tunnel.md)
+* Create PA Tunnel: [Create PA Tunnel](document_fw_build/6_pa_tunnel/6_pa_tunnel.md)
