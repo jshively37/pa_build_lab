@@ -5,3 +5,4 @@
 * General Network Config for PA: [General Network PA Config](3_general_network_config_pa/3_general_network_config_pa.md)
 * General Policy Config for PA: [General Policy PA Config](4_base_policy_pa/4_base_policy_pa.md)
 * Create SCM Tunnel: [Create SCM Tunnel](5_scm_tunnel/5_scm_tunnel.md)
+* Create PA Tunnel: [Create PA Tunnel](6_pa_tunnel/6_pa_tunnel.md)
