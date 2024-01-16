@@ -1,6 +1,18 @@
 # Configure IPSec Tunnel on Palo Alto Firewall
 
 ### Table of Contents
+- [Configure IPSec Tunnel on Palo Alto Firewall](#configure-ipsec-tunnel-on-palo-alto-firewall)
+    - [Table of Contents](#table-of-contents)
+    - [Information Needed to complete:](#information-needed-to-complete)
+    - [Create IKE Crypto Policy](#create-ike-crypto-policy)
+    - [Create IPSec Crypto Policy](#create-ipsec-crypto-policy)
+    - [Create IKE Gateway](#create-ike-gateway)
+    - [Create Tunnel Interface](#create-tunnel-interface)
+    - [Create IPSec tunnel](#create-ipsec-tunnel)
+    - [Create Tunnel Policy](#create-tunnel-policy)
+    - [Allow VPN to Trust Policy](#allow-vpn-to-trust-policy)
+    - [Manually test the tunnel](#manually-test-the-tunnel)
+
 
 ### Information Needed to complete:
 * Azure PA firewall
